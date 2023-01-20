@@ -145,21 +145,19 @@ body {
     font-weight: 500;
 }
 
-.icon-mail:hover,
-.icon-mobil:focus,
-.link:hover,
-.link:focus,
-.contacts-mail:hover,
-.contacts-mail:focus,
-.contacts-tel:hover,
-.contacts-tel:focus {
+
+
+.contact-mail .contacts-mail:hover .icon-mail,
+.contact-mail .contacts-mail:focus .icon-mail,
+.contact-mail .contacts-tel:hover .icon-mobil,
+.contact-mail .contacts-tel:focus .icon-mobil {
     color: var(--accent-text-color);
 }
 
 .icon-mail,
 .icon-mobil {
     margin-right: 10px;
-    fill: #757575;
+    fill: var(--secondary-text-color);
 }
 
  /*___________________Hero____________________*/
